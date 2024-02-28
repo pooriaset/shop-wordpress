@@ -11,6 +11,7 @@ MYSQL_PASSWORD=password
 WORDPRESS_DB_USER=root
 WORDPRESS_DB_PASSWORD=password
 WORDPRESS_DB_NAME=db_name
+WP_DEBUG=true
 ```
 
 ### Initialize Containers
@@ -22,3 +23,7 @@ docker compose up -d
 ```
 
 Make sure to execute these steps properly to set up your environment.
+
+### Install Plugins
+
+- woocommerce
